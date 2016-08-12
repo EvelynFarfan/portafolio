@@ -110,16 +110,80 @@ article{
   box-sizing: border-box;
   margin: 3% 0 0 40%;
 }
-
+.boton-git a{
+	color: #000;
+}
+/*-----------------FOOTER-----------------*/
 footer{
 	margin-top: 5%;
 	padding-bottom:3%; 
 }
-
 footer .icon{
 	font-size:50px;
 	color: #F05F40;
 	margin: 5% 0 1% 0;
+}
+/*----------------- @ MEDIA -----------------*/
+
+@media screen and (min-width: 270px) and (max-width : 600px){
+	.banner{
+		background-image: url(../img/header.jpg);
+    padding: 6%;
+    background-size: 290%;
+	}
+	.banner h1{
+		font-size: 200%;
+	}
+	.boton1 {
+		width: 80%;
+    height: 60%;
+    background-color: #F05F40;
+    border-radius: 23px;
+    padding: 3% 0 0 0%;
+    margin: 5% 0 10px 10%;
+  }
+  #sobre-mi{
+  	padding: 8%;
+  }
+  .bloque2 p {
+    padding: 0% 0 0 0;
+  }
+  .bloque3 .icon{
+  	margin: 1% 0 0 0;
+  }
+	.linea{
+		width: 50%;
+		margin-bottom: 3%
+	}
+	.linea2{
+		width: 50%;
+		margin-bottom: 3%
+	}
+	.bloque3 p {
+    margin-bottom: 10%;
+	}
+	.boton-git {
+    width: 65%;
+    padding: 3% 0 0 0%;
+    margin: 3% 0 10% 18%;
+	}
+}
+@media screen and (min-width: 600px) and (max-width : 700px){
+	.bloque3 p {
+    margin: 3% 0;
+  }
+  .bloque3 .icon{
+  	margin: 3% 0 0 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width : 990px){
+	.bloque3 p {
+    margin: 3% 0 10% 0;
+  }
+  .bloque3 .icon{
+  	margin: 3% 0 0 0;
+  }
 }
 
 
