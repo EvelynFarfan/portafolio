@@ -9,4 +9,4 @@ Este fue uno de los primeros proyectos en donde empezamos a utilizar el framewor
 Así como tambien fue uno de los primeros proyectos en los que teniamos que hacer una versión responsive.
 
 <img src="https://vgy.me/3PJ484.png">
-<a href="http://2.1m.yt/NCgpqim.png" target="_blank"><img src="http://2.1m.yt/NCgpqim.png" alt="ImgLand.net image" /></a>
+
